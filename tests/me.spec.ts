@@ -19,6 +19,7 @@ test('test formulaire MDS', async ({ page }) => {
   await page.getByRole('link', { name: 'Retour à l\'accueil' }).click();
 });
 
+
 test('test navigation page rust', async ({ page }) => {
   await page.goto('https://rust.fandom.com/fr/wiki/Commande_pour_le_serveur');
   await page.getByText('ACCEPT ALL').click();
